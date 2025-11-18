@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
-import { Github, Linkedin, Facebook, Mail, ExternalLink } from 'lucide-react'
+import { Github, Linkedin, Facebook, Mail, ExternalLink, Instagram } from 'lucide-react'
 
 export default function Portfolio() {
   return (
@@ -154,6 +154,15 @@ export default function Portfolio() {
               <span className="font-semibold">GitHub</span>
             </a>
             <a
+              href="https://www.instagram.com/mazen.achraf/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-900 rounded-lg transition flex items-center gap-2"
+            >
+              <Instagram className="w-6 h-6" />
+              <span className="font-semibold">Instagram</span>
+            </a>
+            <a
               href="https://www.facebook.com/share/1DG1NFq3i6/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
@@ -163,7 +172,7 @@ export default function Portfolio() {
               <span className="font-semibold">Facebook</span>
             </a>
             <a
-              href="mailto:support@dorossi.app"
+              href="mailto:mazen.achraf@live.fr"
               className="p-4 bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-900 rounded-lg transition flex items-center gap-2"
             >
               <Mail className="w-6 h-6" />
