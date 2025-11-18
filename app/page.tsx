@@ -42,7 +42,7 @@ export default function Portfolio() {
           <div className="flex justify-center">
             <div className="relative w-80 h-80 md:w-96 md:h-96">
               <Image
-                src="/images/mazen.jpg"
+                src="/portfolio/images/mazen.jpg"
                 alt="Mazen Achraf"
                 fill
                 className="object-cover rounded-2xl shadow-2xl"
@@ -74,7 +74,7 @@ export default function Portfolio() {
             <div className="flex items-center justify-center">
               <div className="relative w-full max-w-sm h-64">
                 <Image
-                  src="/images/storie.png"
+                  src="/portfolio/images/storie.png"
                   alt="Dorossi Teacher"
                   fill
                   className="object-contain"
