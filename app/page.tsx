@@ -22,10 +22,10 @@ export default function Portfolio() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-5xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
-              System Architect & Senior Developer
+              Junior Developer
             </h2>
             <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-              I design and build complex projects from scratch with AI. Computer Science student dedicated to creating scalable, innovative solutions.
+              I utilize AI to be flexible with any programming language. I understand that tools are different but the core logic is the same. I am a continuous learner who likes challenges and solving problems.
             </p>
             <div className="flex gap-4 flex-wrap">
               <Button asChild className="bg-blue-600 hover:bg-blue-700">
@@ -58,7 +58,7 @@ export default function Portfolio() {
         <h3 className="text-4xl font-bold text-slate-900 mb-12 text-center">About Me</h3>
         <div className="bg-white rounded-xl p-8 md:p-12 shadow-lg border border-slate-200">
           <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-            I'm <span className="font-semibold text-slate-900">Bougandoura Mazen Achraf</span>, a senior developer with 6 months of professional experience and a Computer Science student. I specialize in designing and building complex projects from scratch, leveraging AI and modern technologies to create scalable and innovative solutions.
+            I'm <span className="font-semibold text-slate-900">Bougandoura Mazen Achraf</span>, a junior developer and Computer Science student. I utilize AI to be flexible with any programming language, understanding that while tools differ, the core logic remains the same.
           </p>
           <p className="text-lg text-slate-600 leading-relaxed">
             My expertise spans system architecture, full-stack development, and AI integration. I'm passionate about solving real-world problems through technology and continuously learning new approaches to software design.
@@ -68,7 +68,7 @@ export default function Portfolio() {
 
       {/* Projects Section */}
       <section id="projects" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h3 className="text-4xl font-bold text-slate-900 mb-12 text-center">Featured Project</h3>
+        <h3 className="text-4xl font-bold text-slate-900 mb-12 text-center">Featured Projects</h3>
         <div className="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-200 hover:shadow-xl transition">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 md:p-12">
             <div className="flex items-center justify-center">
@@ -86,7 +86,7 @@ export default function Portfolio() {
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Dorossi Teacher helps private teachers and tutors manage groups, sessions, attendance, and payments—fast and reliably. Get in-app help anytime by asking the Dorossi Agent.
               </p>
-              
+
               <div className="space-y-3 mb-8">
                 <h5 className="font-semibold text-slate-900">Key Features:</h5>
                 <ul className="space-y-2 text-slate-600">
@@ -129,6 +129,58 @@ export default function Portfolio() {
                     <ExternalLink className="w-4 h-4" />
                     Play Store
                   </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-200 hover:shadow-xl transition mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 md:p-12">
+            <div className="flex items-center justify-center">
+              <div className="relative w-full max-w-sm h-64">
+                <Image
+                  src="/portfolio/images/login-hero.png"
+                  alt="BarberQueue"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+            <div className="flex flex-col justify-center">
+              <h4 className="text-3xl font-bold text-slate-900 mb-4">BarberQueue</h4>
+              <p className="text-slate-600 mb-6 leading-relaxed">
+                BarberQueue is the ultimate queue management application designed to connect clients with their favorite barbers seamlessly.
+              </p>
+
+              <div className="space-y-3 mb-8">
+                <h5 className="font-semibold text-slate-900">Key Features:</h5>
+                <ul className="space-y-2 text-slate-600">
+                  <li className="flex gap-3">
+                    <span className="text-blue-600 font-bold">•</span>
+                    Real-time queue synchronization
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-blue-600 font-bold">•</span>
+                    Interactive Google Maps integration
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-blue-600 font-bold">•</span>
+                    Instant push notifications
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-blue-600 font-bold">•</span>
+                    Clean, user-friendly interface
+                  </li>
+                </ul>
+              </div>
+
+              <div className="flex gap-4 flex-wrap">
+                <Button disabled className="bg-slate-400 cursor-not-allowed">
+                  <span className="flex items-center gap-2">
+                    <ExternalLink className="w-4 h-4" />
+                    Coming Soon
+                  </span>
                 </Button>
               </div>
             </div>
