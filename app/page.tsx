@@ -61,7 +61,7 @@ export default function Portfolio() {
             I'm <span className="font-semibold text-slate-900">Bougandoura Mazen Achraf</span>, a junior developer and Computer Science student. I utilize AI to be flexible with any programming language, understanding that while tools differ, the core logic remains the same.
           </p>
           <p className="text-lg text-slate-600 leading-relaxed">
-            My expertise spans system architecture, full-stack development, and AI integration. I'm passionate about solving real-world problems through technology and continuously learning new approaches to software design.
+            My expertise is using ai for full-stack development, and AI integration. I'm passionate about solving real-world problems through technology and continuously learning new approaches to software design.
           </p>
         </div>
       </section>

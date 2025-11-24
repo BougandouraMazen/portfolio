@@ -7,8 +7,8 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'Mazen Achraf - System Architect & Senior Developer',
-  description: 'Portfolio of Bougandoura Mazen Achraf, a system architect and senior developer specializing in complex project design and AI integration.',
+  title: 'Mazen Bougandoura, Junior developer',
+  description: 'Portfolio of Bougandoura Mazen Achraf, a junior developer looking for expeirnece with a team building complex project design and AI integration.',
   icons: {
     icon: [
       {
